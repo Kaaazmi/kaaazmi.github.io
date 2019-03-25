@@ -689,9 +689,9 @@ canvas{
 .white-popup {
 	position: relative;
 	background: #FFF;
-	padding: 30px;
+	padding: 30px 70px 30px 30px; 
 	width: auto;
-	max-width: 60%;
+	max-width: 70%;
 	margin: 0 auto;
 }
 
@@ -708,7 +708,7 @@ canvas{
 	position: relative;
 	text-align: center;
 	cursor: pointer;
-	background: rgba(233,30,99,0.9);
+	background: rgba(100, 11, 58, 0.911)
 }
 
 .hovereffect .overlay {

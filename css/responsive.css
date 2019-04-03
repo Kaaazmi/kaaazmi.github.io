@@ -61,6 +61,8 @@ NB: This is the responsive stylesheet of this theme.
 
 }
 
+
+
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
     .section-padding {
@@ -216,8 +218,18 @@ NB: This is the responsive stylesheet of this theme.
         margin-bottom: 30px;
     }
 
+    .logo {
+        font-size:26px;
+
+    }
 
 
+}
+
+@media only screen and (min-width: 220px) and (max-width: 346px) {
+    .logo {
+        font-size: 22px;
+    }
 }
 
 /* Wide Mobile Layout: 480px. */
@@ -239,6 +251,8 @@ NB: This is the responsive stylesheet of this theme.
     .contact-area {
         background-position: inherit;
     }
+
+
 
 
 

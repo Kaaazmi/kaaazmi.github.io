@@ -909,6 +909,12 @@ canvas {
 	color: #000000;
 }
 
+.single-contact .socials i:hover {
+	font-size: 18px;
+	color: #880e4f;
+	transition: font-size 200ms;
+}
+
 .socials i:hover {
 	cursor: pointer;
 }

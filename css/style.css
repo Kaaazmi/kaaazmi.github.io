@@ -794,6 +794,11 @@ canvas {
     transform: translate3d(0, 0, 0);
 }
 
+.hovereffect img {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
 .hovereffect:hover .overlay:before,
 .hovereffect:hover a,
 .hovereffect:hover p {
@@ -997,3 +1002,14 @@ canvas {
 }
 
 /*--------------- Footer area ends -------------*/
+
+@media (max-width: 992px) {
+    .popup-project {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}

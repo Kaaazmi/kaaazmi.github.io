@@ -1012,4 +1012,5 @@ canvas {
 
 .mb-1 {
     margin-bottom: 1rem;
+    border: 1px solid #000;
 }
